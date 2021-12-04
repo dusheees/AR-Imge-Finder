@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "horses.HEIC",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 8.4851455733808674
+  }
+}
