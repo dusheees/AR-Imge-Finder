@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55653635276FB9C2008B2809 /* Screenshot01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55653634276FB9C2008B2809 /* Screenshot01.jpg */; };
 		556666D0275BC31900D47B87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556666CF275BC31900D47B87 /* AppDelegate.swift */; };
 		556666D2275BC31900D47B87 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 556666D1275BC31900D47B87 /* art.scnassets */; };
 		556666D4275BC31900D47B87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556666D3275BC31900D47B87 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55653634276FB9C2008B2809 /* Screenshot01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Screenshot01.jpg; sourceTree = "<group>"; };
 		556666CC275BC31900D47B87 /* AR Imge Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Imge Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		556666CF275BC31900D47B87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		556666D1275BC31900D47B87 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55653636276FB9C7008B2809 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				55653634276FB9C2008B2809 /* Screenshot01.jpg */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		556666C3275BC31900D47B87 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +65,7 @@
 		556666CE275BC31900D47B87 /* AR Imge Finder */ = {
 			isa = PBXGroup;
 			children = (
+				55653636276FB9C7008B2809 /* Screenshots */,
 				556666CF275BC31900D47B87 /* AppDelegate.swift */,
 				556666D1275BC31900D47B87 /* art.scnassets */,
 				556666D3275BC31900D47B87 /* ViewController.swift */,
@@ -126,6 +137,7 @@
 				556666D2275BC31900D47B87 /* art.scnassets in Resources */,
 				556666DC275BC31A00D47B87 /* LaunchScreen.storyboard in Resources */,
 				556666D9275BC31A00D47B87 /* Assets.xcassets in Resources */,
+				55653635276FB9C2008B2809 /* Screenshot01.jpg in Resources */,
 				556666D7275BC31900D47B87 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
