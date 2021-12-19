@@ -71,7 +71,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Add image size
         let image = imageAnchor.referenceImage
         let size = image.physicalSize
-        
+        print(size.width)
         // Create plane of the same size
         let height = 69 / 65 * size.height
         let width = image.name == "horses" ?
